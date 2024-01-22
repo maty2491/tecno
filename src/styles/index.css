@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, h3, h4, h5, p {
+    font-family: 'Montserrat', sans-serif;
+        
+  }
+
+.bg-video{
+  background-color: #3D281B;
+}
+
+.bg-banner{
+    background-color: #3D281B;
+    background-image: url('../assets/4.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    padding: 10%;       
+}
+
+.bg-banner-contactanos{
+  background-image: url('../assets/11.png');
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  padding: 9%;  
+}
+
+.bg-banner-productos{
+  background-image: url('../assets/11.png');
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  padding: 9%;  
+}
+
+
+.bg-logo{
+    background-color: white;
+}
+.btn-curvo{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  background-color: transparent; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: 1px solid;
+  border-radius: 20px; /* Radio para crear la curva */
+  font-size: 1.2rem; /* Tamaño de la fuente */
+  cursor: pointer;
+  transition: background-color 0.3s ease;   
+  }      
+
+  .btn-curvo:hover{
+    background-color: rgb(247, 248, 248);
+    color: rgb(253, 253, 253)
+  }
+
+  .btn-curvo-secundario{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    background-color: transparent; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    border: 1px solid;
+    border-radius: 20px; /* Radio para crear la curva */
+    font-size: 1.2rem; /* Tamaño de la fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease;   
+    }   
+
+    .btn-curvo-secundario:hover{
+      background-color: rgb(199, 199, 199);
+      color: rgb(7, 7, 7);
+    }
+
+  .bg-marron{
+    background-color: #3D281B;
+    color: aliceblue;
+    padding-top: 3%;
+    padding-bottom: 4%;
+  }
+
+   
