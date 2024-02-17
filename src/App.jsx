@@ -11,7 +11,7 @@ import Inicio from './components/Inicio'
 const App = () => {
   return (
     <>
-        <Menu />
+        <Menu/>
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/sistema" element={<Sistema />} />

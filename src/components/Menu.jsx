@@ -3,7 +3,8 @@ import logo from '../assets/logo.png'
 
 const Menu = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-logo sticky-top" >
+    
+    <nav className="border border-primary navbar navbar-expand-lg bg-logo sticky-top" >
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
           <img

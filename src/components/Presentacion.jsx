@@ -2,7 +2,8 @@ import img5 from "../assets/5.png";
 
 const Presentacion = () => {
   return (
-    <div className="container-fluid">
+    <>
+    <div className="border border-primary">
       <div className="row">
         <div className="col-lg-4 col-md-4 col-sm-12">
           <img src={img5} className="img-fluid" />
@@ -31,6 +32,7 @@ const Presentacion = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
