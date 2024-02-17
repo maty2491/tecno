@@ -3,12 +3,7 @@ import img5 from "../assets/5.png";
 const Presentacion = () => {
   return (
     <>
-    <div className="border border-primary">
-      <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-12">
-          <img src={img5} className="img-fluid" />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 text-center">
+  
           <p>
             Nuestros bioinsumos reactivan la vida del suelo y evitan el estrés
             de la planta. Su aplicación es especifica según el requerimiento
@@ -29,9 +24,7 @@ const Presentacion = () => {
             Índice de gelificación: 1kg equivale a 20 lt humatos hidrolizados y
             a 10 ​kg de humatos granulados.
           </p>
-        </div>
-      </div>
-    </div>
+       
     </>
   );
 };

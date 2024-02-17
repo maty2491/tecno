@@ -11,16 +11,18 @@ import { BannerVideo } from "./BannerVideo";
 
 const Inicio = () => {
   return (
-    <>    
+    <>
+    
     <BannerVideo/>
     <BannerPrincipal/>   
     <BannerContacto />
-    <Presentacion/>
-    <Imas /> 
+    <Imas/> 
+    {/* <Presentacion/>
     <Sistema/> 
-    <BannerFotos/>
     <Unicos/>
-    <Productos/>
+    <BannerFotos/> 
+  <Productos/> */}
+  
 
     </>
   );

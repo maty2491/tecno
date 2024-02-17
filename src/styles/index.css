@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 body, h1, h2, h3, h4, h5, p {
@@ -10,7 +9,7 @@ body, h1, h2, h3, h4, h5, p {
       
   }
 h1{
-  font-size: 3.8rem !important;  
+  font-size: 3rem !important;  
 }
 h2{
   font-size: 2.6rem !important;
@@ -20,7 +19,7 @@ h3{
 }
 
 p{
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
 }
 
 .bg-video{

@@ -3,9 +3,9 @@ import img2 from "../assets/2.png";
 export const BannerPrincipal = () => {
   return (
     <>
-      <div className="bg-banner border border-primary">
-        <div className="row">
-          <div className="col-lg-2 col-sm-0"></div>
+      <div className="bg-banner border border-primary ">
+        <div className="row ">
+          <div className="col-lg-2 col-sm-0 "></div>
           <div className="col-lg-8 col-sm-12 text-white">
             <div>
               <h4 className="text-center text-white">
@@ -31,14 +31,14 @@ export const BannerPrincipal = () => {
           ></path>
         </svg>
       </div>
-      <div className=" border border-primary mb-4 mt-4">           
-            <h3 className="text-center mb-4">
+      <div className="border border-primary mx-auto p-1">           
+            <h4 className="text-center mb-4">
               Sabemos que el suelo es el capital de máximo valor: todo lo demás es
               sustituíble, el suelo no.
-            </h3>
-            <h3 className="text-center fw-bold">
+            </h4>
+            <h4 className="text-center fw-bold">
               Lo que pase con la semilla será consecuencia del estado del suelo.
-            </h3>
+            </h4>
           </div>
         
     </>
