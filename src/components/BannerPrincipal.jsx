@@ -3,7 +3,7 @@ import img2 from "../assets/2.png";
 export const BannerPrincipal = () => {
   return (
     <>
-      <div className="bg-banner border border-primary ">
+      <div className="bg-banner">
         <div className="row ">
           <div className="col-lg-2 col-sm-0 "></div>
           <div className="col-lg-8 col-sm-12 text-white">
@@ -21,9 +21,9 @@ export const BannerPrincipal = () => {
           </div>
         </div>
       </div>
-      <div className="border border-primary">
+      <div className="">
         <img src={img2} className="img-fluid" alt="Fondo" />
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 20 1410 310">
+        <svg className="m-bt" xmlns="http://www.w3.org/2000/svg" viewBox="0 20 1410 310">
           <path
             fill="#3D281B"
             fill-opacity="1"
@@ -31,8 +31,8 @@ export const BannerPrincipal = () => {
           ></path>
         </svg>
       </div>
-      <div className="border border-primary mx-auto p-1">           
-            <h4 className="text-center mb-4">
+      <div className="mx-auto p-1">           
+            <h4 className="text-center">
               Sabemos que el suelo es el capital de máximo valor: todo lo demás es
               sustituíble, el suelo no.
             </h4>

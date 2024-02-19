@@ -26,13 +26,24 @@ p{
   background-color: #3D281B;
 }
 
+.linea{
+  border: 1;
+  margin: 1rem;
+  color: #3D281B !important;
+  border-top: #3D281B solid;
+}
+
 .bg-banner{
     background-color: #3D281B;
     background-image: url('../assets/4.png');
     background-position: left center;
     background-repeat: no-repeat;
-    background-size: 220px;
-    padding: 10%;       
+    background-size: 150px;
+    padding: 4%;       
+}
+
+.m-bt{
+  margin-bottom: -35px;
 }
 
 .bg-banner-contactanos{
@@ -115,5 +126,13 @@ p{
     border-radius: 20px;
     margin-top: 5%;
   }
+
+  .f-circular{
+    border-radius: 50%;
+    background: #3D281B;
+    max-width: 50%;
+    padding: 20px;
+  }
+
   
    

@@ -7,6 +7,7 @@ import Unicos from "./Unicos";
 import BannerFotos from "./BannerFotos";
 import { BannerPrincipal } from "./BannerPrincipal";
 import { BannerVideo } from "./BannerVideo";
+import Servicios from "./Servicios";
  
 
 const Inicio = () => {
@@ -17,11 +18,12 @@ const Inicio = () => {
     <BannerPrincipal/>   
     <BannerContacto />
     <Imas/> 
-    {/* <Presentacion/>
+    {/* <Presentacion/> */}
     <Sistema/> 
     <Unicos/>
     <BannerFotos/> 
-  <Productos/> */}
+    <Productos/> 
+    <Servicios/>
   
 
     </>

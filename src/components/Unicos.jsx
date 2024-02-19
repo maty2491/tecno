@@ -2,14 +2,14 @@ import React from "react";
 
 const Unicos = () => {
   return (
-    <div className="border border-primary text-left">
-      <div className="row">
+    <div className="p-3">
+      <div className="row text-center">
         <div className="col-lg-2"></div>
         <div className="col-lg-8">
-          <hr />
+          <div className="linea"></div>
           <h1 className="fw-bold mb-4">ÚNICOS</h1>
           <h3 className="fw-bold mb-4">EN EL MERCADO</h3>
-          <p className="fs-5">
+          <p className="">
             Formulados con la mayor concentración de carbono disponible al 90,1%
             y ​con el proceso de gelificado patentado de Tecnosustrato, nuestros
             ​productos son diferentes a todos los que existen.
@@ -25,7 +25,7 @@ const Unicos = () => {
             </tbody>
           </table>
         </div>
-        <div className="col-lg-2"></div>
+        <div className="col-lg-2 col-md-1 col-sm-1"></div>
       </div>
     </div>
   );
