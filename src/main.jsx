@@ -5,6 +5,9 @@ import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+    <div className='container-fluid'>
     <App />
+
+    </div>
   </BrowserRouter>,
 )

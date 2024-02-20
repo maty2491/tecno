@@ -1,8 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;    
+  padding: 0px;
+  margin: 0px;
 }
-
 body, h1, h2, h3, h4, h5, p {
     font-family: 'Montserrat', sans-serif;
     color: #3D281B !important;   
@@ -33,6 +32,12 @@ p{
   border-top: #3D281B solid;
 }
 
+.linea-2{
+  border: 1;
+  margin: 1rem;  
+  border-top: #ffffff solid;  
+}
+
 .bg-banner{
     background-color: #3D281B;
     background-image: url('../assets/4.png');
@@ -40,6 +45,9 @@ p{
     background-repeat: no-repeat;
     background-size: 150px;
     padding: 4%;       
+}
+.bg-banner-2{
+  background-color: #3D281B;      
 }
 
 .m-bt{
@@ -60,9 +68,21 @@ p{
   max-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 120%;
-  padding: 9%;  
+  background-size: 115%;
+  padding: 10%;    
 }
+
+.fs-per-1{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Cambia el tamaño de la fuente a 16px */
+  .fs-per-1{
+    font-size: 1rem;
+  }
+}
+
 
 
 .bg-logo{
@@ -129,9 +149,23 @@ p{
 
   .f-circular{
     border-radius: 50%;
-    background: #3D281B;
-    max-width: 50%;
-    padding: 20px;
+    background: #3D281B;    
+    max-width: 100%;
+  }
+
+  .bg-presenacion{
+    background-image: url("../assets/sistema-ts.png");
+
+  }
+
+  .img-cards{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/sistema-ts.png");
+      max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
 
   

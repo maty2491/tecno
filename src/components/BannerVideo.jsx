@@ -1,10 +1,15 @@
 import Video from "./Video";
-import logVideo from "../assets/logo-vid.mp4";
+import logVideo from "../assets/log-vid.mp4";
 
 export const BannerVideo = () => {
   return (
-    <div className="bg-video border border-primary ">
+    <>
+    
+    <div className="bg-video">
         <Video src={logVideo} />
+    
     </div>
+    
+    </>
   )
 }

@@ -18,7 +18,7 @@ const Productos = () => {
         <div className="col-lg-2"></div>
 
       </div>
-      <div className="">
+      <div className="text-center">
         <img src={planta} className="img-fluid" />
       </div>
     </>

@@ -8,23 +8,25 @@ import BannerFotos from "./BannerFotos";
 import { BannerPrincipal } from "./BannerPrincipal";
 import { BannerVideo } from "./BannerVideo";
 import Servicios from "./Servicios";
- 
+
 
 const Inicio = () => {
   return (
     <>
-    
-    <BannerVideo/>
-    <BannerPrincipal/>   
-    <BannerContacto />
-    <Imas/> 
-    {/* <Presentacion/> */}
-    <Sistema/> 
-    <Unicos/>
-    <BannerFotos/> 
-    <Productos/> 
-    <Servicios/>
-  
+      <BannerVideo />
+      <BannerPrincipal />
+      <BannerContacto />
+      <Imas />
+      <Sistema />
+      <Unicos />
+      <BannerFotos />
+      <Presentacion />
+      <Productos />
+      <Servicios />
+
+
+
+
 
     </>
   );
